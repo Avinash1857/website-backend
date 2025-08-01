@@ -38,8 +38,8 @@ async def request_access(data: AccessRequest, request: Request):
     mobile = data.mobile
     email = data.email
 
-    accept_link = f"https://your-backend-url.com/accept?email={email}&username={username}"
-    decline_link = f"https://your-backend-url.com/decline?email={email}&username={username}"
+    accept_link = f"https://website-backend-dm6y.onrender.com/accept?email={email}&username={username}"
+    decline_link = f"https://website-backend-dm6y.onrender.com/decline?email={email}&username={username}"
 
     # Render the email template using Jinja2
     html_content = templates.get_template("access_request_email.html").render({
