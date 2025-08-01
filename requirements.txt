@@ -3,5 +3,4 @@ uvicorn
 pydantic
 python-multipart
 jinja2
-smtplib
 email-validator
